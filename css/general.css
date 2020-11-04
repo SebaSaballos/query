@@ -1,0 +1,69 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #283673;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+
+/* header */
+
+#header-principal {
+    background: #283673;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+
+#header-principal nav {
+    height: 70px;
+    width: 100%;
+}
+
+#header-principal nav a {
+    height: 100%;
+    padding-right: 50px;
+}
+
+#header-principal .enlace {
+    color: #f1f1f1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#header-principal nav .logo {
+    width: 50px;
+    margin-top: 12px;
+}
+
+#header-principal nav a:hover {
+    color: #fbde37;
+}
+
+
+/* footer */
+
+#footer-principal {
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    padding-top: 20px;
+    width: 100%;
+    background: #283673;
+    text-align: center;
+    color: #F1F1F1;
+}

@@ -1,0 +1,51 @@
+/** TITULO **/
+
+h1 {
+    font-size: 50px;
+    color: #fbde37;
+}
+
+
+/** FORMULARIO **/
+
+.sct-form {
+    text-align: center;
+    background-color: #283673;
+}
+
+form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.sct-form div {
+    padding: 0px;
+}
+
+form input {
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    height: 35px;
+    width: 25%;
+}
+
+textarea {
+    width: 25%;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: rgba(6, 93, 165);
+    color: white;
+    padding: 10px 15px;
+    margin-top: 0;
+}
+
+.button:hover {
+    color: rgb(255, 255, 19);
+    transition: 0.4s;
+    transform: scale(1.2);
+}

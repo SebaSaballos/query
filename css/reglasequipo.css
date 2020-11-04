@@ -1,0 +1,48 @@
+.sct-banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fbde37;
+    padding: 0 15px;
+    margin-left: 25px;
+}
+
+.sct-banner .texto p {
+    padding-top: 10px;
+    color: #f1f1f1;
+    font-size: 18px;
+    padding: 0 15px;
+    margin-left: 25px;
+}
+
+
+/* Tabla de reglas */
+
+.sct-reglamento {
+    /*Agranda texto de la tabla*/
+    font-size: 20px;
+}
+
+.sct-reglamento .center01 {
+    /*Centra la tabla*/
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.sct-reglamento table {
+    border: 2px solid #fbde37;
+    border-collapse: separate;
+}
+
+.sct-reglamento .center01 .sct-title {
+    /*Poner en negrita titulos del table*/
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.sct-reglamento td {
+    border: 2px solid #fbde37;
+    color: #f1f1f1;
+    padding: 10px;
+    font-size: 18px;
+}

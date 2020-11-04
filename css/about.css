@@ -1,0 +1,42 @@
+/* Integrantes */
+
+.sct_about {
+    display: flow-root;
+    background: #283673;
+}
+
+.sct_about .member {
+    float: left;
+    width: 400px;
+    min-width: 400px;
+    min-height: 350px;
+}
+
+.sct_about .contenedorTexto {
+    text-align: center;
+    width: 100%;
+}
+
+.sct_about .member .nombre {
+    padding-top: 3%;
+    color: #e1c731;
+    font-weight: bold;
+    font-size: 30px
+}
+
+.sct_about .member .correo {
+    color: #f1f1f1;
+    font-size: 22px;
+}
+
+.sct_about .member .rol {
+    color: #f1f1f1;
+    font-size: 20px;
+}
+
+.member img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+}

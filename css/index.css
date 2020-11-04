@@ -1,0 +1,84 @@
+/* Banner */
+
+.sct-banner {
+    height: 500px;
+}
+
+.sct-banner .logoimg {
+    background-image: url('../imgs/queryhorizontal.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    padding: 200px;
+}
+
+
+/* Mision vision */
+
+.sct-misvis {
+    background: #3d4a81;
+}
+
+.sct-misvis div {
+    width: 100%;
+    height: 400px;
+    padding: 125px;
+}
+
+.sct-misvis h2 {
+    color: #fbde37;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.sct-misvis p {
+    color: #f1f1f1;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* enlaces a otras páginas */
+
+.sct-enlaces {
+    height: 900px;
+}
+
+.sct-enlaces div {
+    height: 300px;
+    width: 100%;
+}
+
+.sct-enlaces div a {
+    padding: 150px 280px;
+    color: #fbde37;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 3px 3px 0 #283673, 3px 3px 0 #283673, 3px 3px 0 #283673, 3px 3px 0 #283673;
+}
+
+.sct-enlaces .reglas {
+    background-image: url('../imgs/imgReglamento.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+}
+
+.sct-enlaces .about {
+    background-image: url('../imgs/imgEquipo.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+}
+
+.sct-enlaces .contact {
+    background-image: url('../imgs/imgContacto.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+    margin-bottom: 50px;
+}
